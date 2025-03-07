@@ -2,7 +2,13 @@ body{background-color: lightpink; margin: 0}
 header{background-color: hotpink; text-align: center; border-radius: 20px;padding-top: 25px; padding-bottom: 25px}
 header h1{color: white;font-size: 45px;font-family: Verdana, sans-serif; text-align: center;}
 header img{border-radius: 150px; border: 20px solid #fc70db;}
-main h2{font-size: 30px;font-family: Arial; margin: 10 auto; padding-left: 100px}
-main p{font-size: 20px;font-family: Arial , Helvetica}
-main li{font-size: 20px;font-family: Arial , Helvetica}
-main img{text-align: center; padding-left: 300px; border-radius: 50px}
+main{max-width: 800px; margin: 0 auto; padding: 5px 25px 100px 10px}
+main h2{font-size: 30px;font-family: Arial;color: white;}
+main p{font-size: 20px;font-family: Arial , Helvetica; color: white;}
+main li{font-size: 20px;font-family: Arial , Helvetica; color: white;}
+main img{border-radius: 50px; max-width: 100%; border:10px solid #fc70db; max-width: 800px}
+main a{color: white;}
+main a:hover{color: hotpink;}
+footer{text-align: center; color: white; font-size: 15px; background-color: hotpink;}
+footer p{margin: 0px}
+.caption{color: hotpink; font-size: 10px}
